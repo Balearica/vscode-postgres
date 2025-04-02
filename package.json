@@ -287,11 +287,6 @@
       "editor/context": [
         {
           "command": "vscode-postgres.runQuery",
-          "when": "editorLangId != postgres && editorHasSelection && !editorHasMultipleSelections",
-          "group": "navigation"
-        },
-        {
-          "command": "vscode-postgres.runQuery",
           "when": "editorLangId == postgres",
           "group": "navigation"
         }
